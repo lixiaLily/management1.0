@@ -14,9 +14,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.lang.reflect.Method;
 
-/**
- * @author MrBird
- */
 public class AddressUtil {
 
     private static Logger log = LoggerFactory.getLogger(AddressUtil.class);

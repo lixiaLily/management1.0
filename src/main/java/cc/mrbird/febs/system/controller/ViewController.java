@@ -136,6 +136,12 @@ public class ViewController extends BaseController {
         return FebsUtil.view("system/dept/dept");
     }
 
+    @GetMapping(FebsConstant.VIEW_PREFIX + "system/product")
+    @RequiresPermissions("product:view")
+    public String systemProduct() {
+        return FebsUtil.view("system/product/product");
+    }
+
     @RequestMapping(FebsConstant.VIEW_PREFIX + "index")
     public String pageIndex() {
         return FebsUtil.view("index");
